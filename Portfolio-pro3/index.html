@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/13e0fbaa1e.js" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+    
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+        <nav>
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#intern">Internships and Trainings</a></li>
+                <li><a href="#projects">My Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="header-text">
+                <p>Aspiring Frontend Developer,<br>Future Full Stack Developer</p>
+                <h1>Hi, I'm Anusri<br>from Cuddalore.</h1>
+            </div>
+        </nav>
+    </div>
+    </div>
+    <!-------------about------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="abtimg.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Aspiring Full Stack Developer with strong skills in frontend development and progressing knowledge in backend technologies. Eager to create user-friendly web applications and continuously learn and grow in both areas. Committed to becoming a well-rounded developer capable of handling both frontend and backend </p>
+
+                    <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('school')">School Education</p>
+                    <p class="tab-links" onclick="opentab('college')">College Education</p>
+                    <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                </div>
+                <div class="tab-contents active-tab" id="school">
+                    <ul>
+                        <li><span>2020-2021</span><br>HSC at JMHSS <br>
+                        Percentage-88.31%</li> 
+                        <li><span>2018-2019</span><br>SSLC at JMHSS <br>
+                            Percentage-85%</li>   
+                    </ul>
+                </div>
+                <div class="tab-contents" id="college">
+                    <ul>
+                        <li><span>2021-2025</span><br>B.E-Computer 
+                            Science and Engineering at KPRIET <br>
+                        CGPA-7.9/10(Upto 5th semester)</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="skills">
+                    <ul>
+                        <li><span>Java</span><br>
+                        <li><span>HTML</span><br>
+                        <li><span>CSS</span><br>
+                        <li><span>JavaScript</span><br>
+                        <li><span>MySql</span>   
+                        <li><span>Git and GitHub</span>        
+                        </li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ <!-------------Internships and trainings-------> 
+ <div id="intern">
+    <div class="container">
+        <h1 class="sub-title">Internships and Trainings</h1>
+        <div class="intern-list">
+            <div>
+                <h2>Full Stack Development</h2>
+                <p><span> NLC India Ltd,Neyveli.</span>
+                    <br>Designed and Build a Complaint portal for NLC India Ltd.
+                    Responsive forms and registered complaints.</p>
+            </div>
+            <div>
+                <h2>Mobile App Development</h2>
+                <p> <span>Techasoft Pvt Ltd, Bangalore.</span><br>
+                    Designed and Build a basic Chat Application.
+                    Created by React Native and Firebase as Backend.</p>
+            </div>
+            <div>
+                <h2>Hands-On Workshop</h2>
+                <p><span>NoviTech,Coimbatore.</span><br>Currently engaged in learning from a Full Stack Development
+                    30 days Workshop conducted by NoviTech.</p>
+            </div>
+        </div>
+    </div>
+ </div> 
+  <!-------------My Projects------->
+  <div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="projects-list">
+            <div class="pro">
+                <img src="complaint.jpeg">
+                <div class="layer">
+                    <h3>Complaint Management System</h3>
+                    <p>Designed and Build a Complaint Management System using HTML, CSS, PHP, MySQL AND JavaScript. 
+                        A system designed to efficiently handle, track, and resolve customer complaints and feedback.
+                        </p>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="no.jpeg">
+                <div class="layer">
+                    <h3>Keep Notes</h3>
+                    <p>Designed and Build a Keep notes website using
+                        HTML, CSS and JavaScript
+                        A simple website for creating, deleting, and
+                        managing personal notes efficiently.
+                        </p>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="code.jpeg">
+                <div class="layer">
+                    <h3>CodePen-Clone</h3>
+                    <p>This CodePen website allows user to create,edit and preview HTML,CSS and JavaScript code in real-time.
+                        It provides User-friendly interface to experiment with Web Development.
+                        </p>
+                </div>
+            </div>
+        </div>
+   <a href="#" class="btn">See more</a>
+    </div>
+  </div> 
+    <!-------------Contact------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h2 class="sub-title">Contact Me</h2>
+                    <p><i class="fa-solid fa-envelope"></i>anusri200309@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>0123456789</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/anusri-a-101985229/"> <i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Anu200309"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="New updated Resume 30.6.pdf" download class="btn btn2">Download CV</a>
+                </div>
+
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required> 
+                        <textarea name="Message" rows="6" placeholder="Your Message"  ></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                         
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Made with <i class="fa-solid fa-heart"></i> by Anusri </p>
+    </div>
+
+   </div>
+</body>
+
+</html>
